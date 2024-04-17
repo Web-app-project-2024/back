@@ -3,7 +3,8 @@ method: POST
 body format:  
 ```js
 {  
-    name: "Asus ZenBook 14 Pro",  
+    name: "Asus ZenBook 14 Pro",
+    imgUrl: "https://hotline.ua/img/tx/396/3960617385.jpg",  
     price: 1200,  
     processorType: "Intel Core I7",  
     processorCount: 6,  
@@ -19,16 +20,18 @@ body format:
 method: GET  
   
 ## **update laptop route** - http://localhost:3000/laptops/{id}  
-method: PUT
+method: PUT  
+body format:  
 ```js
 {  
-    name: "Asus ZenBook 14 Pro",  
+    name: "Asus ZenBook 14 Pro",
+    imgUrl: "https://hotline.ua/img/tx/396/3960617385.jpg",  
     price: 1200,  
     processorType: "Intel Core I7",  
-    processorCount: 6,  
+    processorCount: 8,  
     ram: 16,  
     SSDrom: 512,  
-    HDDrom: 1000,  
+    HDDrom: 512,  
     amount: 10  
 }
 ```
